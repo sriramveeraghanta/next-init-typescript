@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with
-[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Init Typescript
 
-## Getting Started
+A Next Js pre-configured template.
 
-First, run the development server:
+## Requirements
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Install CookieCutter in your local machine.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the
-file.
-
-## Testing
-
-```bash
-yarn test-all
+### Using python
 
 ```
+pip install --user cookiecutter
+```
 
-## Learn More
+### Mac
 
-To learn more about Next.js, take a look at the following resources:
+```
+brew install cookiecutter
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Ubuntu
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your
-feedback and contributions are welcome!
+```
+sudo apt-get install cookiecutter
+```
+
+For more installation options, visit [Install cookiecutter Page](https://cookiecutter.readthedocs.io/en/1.7.2/installation.html)
+
+## Usage
+
+```
+$ cookiecutter git+https://github.com/sriramveeraghanta/next-init-typescript
+```

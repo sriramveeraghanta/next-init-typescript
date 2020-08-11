@@ -1,0 +1,9 @@
+{
+  "full_name": "Sriram Veeraghanta",
+  "email": "veeraghanta.sriram@gmail.com",
+  "github_username": "sriramveeraghanta",
+  "project_name": "Next Init",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_description": "A pre-configured next js template",
+  "version": "0.1.0"
+}
